@@ -1,0 +1,196 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #637C7A;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #474C46;
+}
+
+.umumisehve {
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.205);
+          box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.205);
+}
+
+.umumisehve .content .basliq {
+  padding: 15px;
+}
+
+.umumisehve .content .basliq .container {
+  background-image: url(../img/head.jpg);
+  width: 100%;
+  height: 449px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.umumisehve .content .basliq .container .basliq_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+.umumisehve .content .basliq .container .basliq_row .basliq_logo {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.umumisehve .content .basliq .container .basliq_row .menu .menu_link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #474C46;
+  margin: 6px;
+}
+
+.umumisehve .content .basliq .container .basliq_text {
+  text-transform: uppercase;
+  font-size: 70px;
+  text-align: center;
+}
+
+.umumisehve .content .basliq .container .basliq_subtext {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+}
+
+.beden {
+  width: 100%;
+  background-color: #F4F6F3;
+  padding: 25px;
+  font-weight: bold;
+}
+
+.beden .content2 .beden_text {
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.beden .content2 .colmn {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.beden .content2 .colmn .column_box1 {
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+          box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.beden .content2 .colmn .column_box1 .columnbloktext {
+  width: 201px;
+  height: 97px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  padding: 11px;
+}
+
+.beden .content2 .column_box2 {
+  width: 200px;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+          box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.beden .content2 .column_box2 .columnbloktext {
+  width: 201px;
+  height: 97px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  padding: 11px;
+}
+
+.beden .content2 .column_box3 {
+  width: 200px;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+          box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.beden .content2 .column_box3 .columnbloktext {
+  width: 201px;
+  height: 97px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  padding: 11px;
+}
+
+.about .content3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .content3 .about_text {
+  padding: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.about .content3 .about_text .about_texttitle {
+  margin: 25px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.about .content3 .about_text .about_textsubtitle {
+  line-height: 1.5;
+  text-align: justify;
+}
+/*# sourceMappingURL=style.css.map */

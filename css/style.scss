@@ -1,0 +1,177 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #637C7A;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #474C46;
+}
+
+.umumisehve {
+	width: 100%;
+	max-width: 780px;
+	margin: 0 auto;
+	background-color: white;
+	box-shadow:         3px 3px 5px 6px rgba(0, 0, 0, 0.205);
+	
+
+	.content {
+		.basliq {
+			padding: 15px;
+
+			.container {
+				background-image: url(../img/head.jpg);
+				width: 100%;
+				height: 449px;
+				background-repeat: no-repeat;
+				background-position: center;
+
+
+				.basliq_row {
+					display: flex;
+					flex-direction: row;
+					justify-content: space-between;
+					padding: 20px;
+
+					.basliq_logo {
+						text-transform: uppercase;
+						font-size: 20px;
+						font-weight: bold;
+						
+					}
+
+					.menu {
+						.menu_link {
+							text-transform: uppercase;
+							text-decoration: none;
+							font-size: 18px;
+							color: #474C46;
+							margin: 6px;
+						}
+					}
+				}
+
+				.basliq_text {
+					text-transform: uppercase;
+					font-size: 70px;
+					text-align: center;
+					
+				}
+
+				.basliq_subtext {
+					text-transform: uppercase;
+					font-size: 20px;
+					text-align: center;
+					
+				}
+			}
+		}
+	}
+}
+
+.beden {
+	width: 100%;
+	background-color: #F4F6F3;
+ padding: 25px;
+  font-weight: bold;
+ 
+	.content2 {
+		.beden_text { font-size: 25px;
+		text-align: center;
+		text-decoration: underline;
+		text-transform: uppercase;
+	}
+
+		.colmn {
+			padding: 20px;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		 	.column_box1 {
+				width: 200px;
+				height: 300px;
+				background-color: white;
+				box-shadow:         3px 3px 5px 6px #ccc;
+.columnbloktext{
+	width: 201px;
+	height: 97px;
+	display: flex;
+	align-items: flex-end;
+	text-align: center;
+	padding: 11px;
+
+		.columun_boxtext{
+
+	}
+}
+				
+				}
+			
+			}
+			.column_box2 {
+				width: 200px;
+				background-color: white;
+				box-shadow:         3px 3px 5px 6px #ccc;
+
+				.columnbloktext{
+					width: 201px;
+					height: 97px;
+					display: flex;
+					align-items: flex-end;
+					text-align: center;
+					padding: 11px;
+				
+						.columun_boxtext{
+				
+					}
+				}
+			}
+
+			.column_box3 {
+				width: 200px;
+				background-color: white;
+				box-shadow:         3px 3px 5px 6px #ccc;
+				.columnbloktext{
+					width: 201px;
+					height: 97px;
+					display: flex;
+					align-items: flex-end;
+					text-align: center;
+					padding: 11px;
+				
+						.columun_boxtext{
+				
+					}
+				}
+			
+			}
+}
+}
+
+.about{
+	.content3{
+		display: flex;
+    align-items: center;
+		.about_img{}
+		.about_text{
+			padding: 35px;
+			display: flex;
+			flex-flow: column;
+	  
+			.about_texttitle{
+				margin: 25px auto;
+				display: flex;
+				align-self: center;
+				font-size: 30px;
+				text-transform: uppercase;
+				text-decoration: underline;
+			}
+			.about_textsubtitle{
+				line-height: 1.5;
+				text-align: justify;
+			}
+		}
+	}
+}
+
